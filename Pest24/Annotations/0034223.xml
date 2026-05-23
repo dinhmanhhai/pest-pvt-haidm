@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation verified="yes">
+  <folder>4-2015</folder>
+  <filename>0034223</filename>
+  <path>E:\2\4-2015\4-2015\0034223.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>800</width>
+    <height>600</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>6</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>218</xmin>
+      <ymin>374</ymin>
+      <xmax>250</xmax>
+      <ymax>403</ymax>
+    </bndbox>
+  </object>
+</annotation>

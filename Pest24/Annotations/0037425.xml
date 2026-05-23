@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation verified="no">
+  <folder>浚县合成文件夹</folder>
+  <filename>0037425</filename>
+  <path>E:\2\浚县合成文件夹\浚县合成文件夹\0037425.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>800</width>
+    <height>600</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>6</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>329</xmin>
+      <ymin>246</ymin>
+      <xmax>374</xmax>
+      <ymax>285</ymax>
+    </bndbox>
+  </object>
+</annotation>

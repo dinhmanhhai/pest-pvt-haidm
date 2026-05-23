@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation verified="no">
+  <folder>7-1</folder>
+  <filename>0018822</filename>
+  <path>F:\2\7-1\0018822.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>800</width>
+    <height>600</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>34</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>250</xmin>
+      <ymin>223</ymin>
+      <xmax>320</xmax>
+      <ymax>314</ymax>
+    </bndbox>
+  </object>
+</annotation>

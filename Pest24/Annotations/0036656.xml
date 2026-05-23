@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation verified="no">
+  <folder>琵琶寺合成文件夹</folder>
+  <filename>0036656</filename>
+  <path>F:\2\琵琶寺合成文件夹\0036656.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>800</width>
+    <height>600</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>8</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>427</xmin>
+      <ymin>383</ymin>
+      <xmax>476</xmax>
+      <ymax>418</ymax>
+    </bndbox>
+  </object>
+</annotation>

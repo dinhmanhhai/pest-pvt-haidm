@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation verified="no">
+  <folder>2016-part3</folder>
+  <filename>006667</filename>
+  <path>E:\2\2016-part3\006667.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>800</width>
+    <height>600</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>34</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>734</xmin>
+      <ymin>396</ymin>
+      <xmax>789</xmax>
+      <ymax>456</ymax>
+    </bndbox>
+  </object>
+</annotation>

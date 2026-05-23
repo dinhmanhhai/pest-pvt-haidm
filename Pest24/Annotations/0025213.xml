@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation verified="no">
+  <folder>9-2</folder>
+  <filename>0025213</filename>
+  <path>F:\2\9-2\0025213.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>800</width>
+    <height>600</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>2</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>121</xmin>
+      <ymin>392</ymin>
+      <xmax>146</xmax>
+      <ymax>410</ymax>
+    </bndbox>
+  </object>
+</annotation>

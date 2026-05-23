@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation verified="no">
+  <folder>滑县合成文件夹</folder>
+  <filename>0041440</filename>
+  <path>F:\标记图片\新建文件夹\滑县合成文件夹\0041440.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>800</width>
+    <height>600</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>28</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>567</xmin>
+      <ymin>105</ymin>
+      <xmax>623</xmax>
+      <ymax>162</ymax>
+    </bndbox>
+  </object>
+</annotation>

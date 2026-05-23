@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation verified="no">
+  <folder>淇滨合成文件夹</folder>
+  <filename>0039387</filename>
+  <path>F:\2\淇滨合成文件夹\0039387.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>800</width>
+    <height>600</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>6</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>482</xmin>
+      <ymin>100</ymin>
+      <xmax>534</xmax>
+      <ymax>152</ymax>
+    </bndbox>
+  </object>
+</annotation>

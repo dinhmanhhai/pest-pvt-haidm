@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation verified="no">
+  <folder>滑县合成文件夹</folder>
+  <filename>0040199</filename>
+  <path>F:\标记图片\新建文件夹\滑县合成文件夹\0040199.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>800</width>
+    <height>600</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>11</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>222</xmin>
+      <ymin>172</ymin>
+      <xmax>257</xmax>
+      <ymax>214</ymax>
+    </bndbox>
+  </object>
+</annotation>

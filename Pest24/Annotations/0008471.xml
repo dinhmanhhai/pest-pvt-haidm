@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation verified="yes">
+  <folder>2jxz1</folder>
+  <filename>0008471</filename>
+  <path>E:\2\2jxz1\2jxz1\0008471.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>800</width>
+    <height>600</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>28</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>540</xmin>
+      <ymin>96</ymin>
+      <xmax>567</xmax>
+      <ymax>147</ymax>
+    </bndbox>
+  </object>
+</annotation>

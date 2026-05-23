@@ -1,0 +1,24 @@
+# Local SSH helper / credentials (không push lên repo)
+ssh.sh
+*.pem
+*.key
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.ipynb_checkpoints/
+
+# Training artifacts
+work_dirs/
+*.pth
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
