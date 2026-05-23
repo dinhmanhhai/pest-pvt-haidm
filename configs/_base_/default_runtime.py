@@ -6,7 +6,7 @@ log_config = dict(
         dict(type='TextLoggerHook'),
         # dict(type='TensorboardLoggerHook'),
         dict(
-            type='WandbLoggerHook',
+            type='MMDetWandbHook',
             init_kwargs=dict(
                 project='pest-pvt',
                 name='atss_pvtv2_dyhead3_ass_8gpu',
