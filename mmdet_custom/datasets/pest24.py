@@ -16,6 +16,7 @@ class Pest24Dataset(VOCDataset):
         # Bypass VOCDataset.__init__'s VOC2007/VOC2012 path check
         # by calling the grandparent (XMLDataset) initializer directly.
         super(VOCDataset, self).__init__(**kwargs)
-        # mmdet's VOC mAP evaluator branches on self.year for IoU thresholds;
-        # use 2007 semantics (single IoU = 0.5) which is what the paper uses.
-        self.year = 2007
+        # Set year=2012 so VOCDataset.evaluate() passes self.CLASSES (our 24
+        # Pest24 classes) to eval_map instead of 'voc07' which would resolve
+        # to mmdet's built-in 20 VOC class names and crash print_map_summary.
+        self.year = 2012
