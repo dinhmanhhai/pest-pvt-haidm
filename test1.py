@@ -6,6 +6,8 @@ import warnings
 
 import mmcv
 import torch
+# Tránh "received 0 items of ancdata" khi nhiều workers vượt FD limit
+torch.multiprocessing.set_sharing_strategy('file_system')
 from mmcv import Config, DictAction
 from mmcv.cnn import fuse_conv_bn
 from mmcv.parallel import MMDataParallel, MMDistributedDataParallel
