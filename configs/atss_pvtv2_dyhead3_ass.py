@@ -73,11 +73,20 @@ train_pipeline = [
 ]
 data = dict(train=dict(pipeline=train_pipeline))
 evaluation = dict(interval=100)
-optimizer = dict(_delete_=True, type='AdamW', lr=0.0001, betas=(0.9, 0.999), weight_decay=0.05,
+# LR scaled cho batch lớn: lr = base_lr × (effective_batch / 320)
+# Batch hiện tại: 8 GPU × samples_per_gpu=480 = 3840
+# → lr = 1e-4 × (3840 / 320) = 1.2e-3
+optimizer = dict(_delete_=True, type='AdamW', lr=0.0012, betas=(0.9, 0.999), weight_decay=0.05,
                  paramwise_cfg=dict(custom_keys={'absolute_pos_embed': dict(decay_mult=0.),
                                                  'relative_position_bias_table': dict(decay_mult=0.),
                                                  'norm': dict(decay_mult=0.)}))
-lr_config = dict(step=[27, 33])
+# Linear warmup cần dài hơn cho batch lớn (1000 iter) để tránh loss nổ ở vài iter đầu
+lr_config = dict(
+    policy='step',
+    warmup='linear',
+    warmup_iters=1000,
+    warmup_ratio=0.001,
+    step=[27, 33])
 
 
 # FP16/Apex disabled — use standard EpochBasedRunner.
